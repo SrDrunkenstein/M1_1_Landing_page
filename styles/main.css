@@ -1,0 +1,89 @@
+main {
+    height: 65vh;
+    width: auto;
+    padding: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .card {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .card .c1,
+.c2 {
+    height: 90%;
+    width: 20%;
+    margin: 1.5em;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+main .card .c1 img,
+.c2 img {
+    width: 100%;
+    height: 60%;
+}
+
+main .card .c1 h2,
+.c2 h2 {
+    margin: .8rem;
+}
+
+main .card .c1 p,
+.c2 p {
+    margin: .8rem;
+}
+
+main .tabla {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main .tabla table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+main .tabla th,
+.tabla td {
+    padding: 12px;
+    border: 1px solid #7c7c7c;
+}
+
+main .tabla th {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+main .tabla td {
+    background-color: #b8b8b8;
+}
+
+main .button button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main .button button:hover {
+    background-color: #45a049;
+}
